@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora renda per capita</title>
+    <link rel="stylesheet" href="teste.css">
+</head>
+<body>
+    <h1>Calculadora Renda per Capita</h1>
+    <div class="container">
+    <form id="forms">
+        <div>
+            <label for="Nome">Nome:</label>
+            <input type="text" id="nome" name="nome" >
+        </div>
+        <div>
+            <label for="CEP">*CEP:</label>
+            <input type="text" id="cep" name="CEP" >
+        </div>
+        <div>
+            <label for="Renda">*Renda Mensal:</label>
+            <input type="text" id="renda" name="Renda" >
+        </div>
+        <div>
+            <label for="Num">*Número de dependentes:</label>
+            <input type="text" id="num" name="Num" >
+        </div>
+        
+        
+        <button id="submit">Calcular</button>
+    </form>
+    <div class="resultado">
+        <div>
+            <label for="name">Nome:</label>
+        <p id="name"></p>
+        </div>
+        <div>
+            <label for="rua">Rua:</label>
+        <p id="rua"></p>
+        </div>
+        <div>
+            <label for="bairro">Bairro:</label>
+        <p id="bairro"></p>
+        </div>
+        <div>
+            <label for="cidade">Cidade:</label>
+        <p id="cidade"></p>
+        </div>
+        <div>
+            <label for="estado">Estado:</label>
+        <p id="estado"></p>
+        </div>
+        <div>
+            <label for="rpc">Renda per Capita:</label>
+        <p id="rpc"></p>
+        </div>
+    
+        <button id="reset">Calcular nova Renda</button>
+    </div>
+    </div>
+ 
+    <script src="teste.js"></script>
+</body>
+</html>
+
