@@ -19,6 +19,7 @@ app.get("/usuario", async (req, res) => {
 
   const ende = await axios.get(
     `http://viacep.com.br/ws/${req.query.cep}/json/`
+
   );
 
   const renda = parseInt(req.query.renda);
@@ -45,4 +46,5 @@ app.get("/usuario", async (req, res) => {
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
+  console.log("aaaaaaaaaa")
 });
